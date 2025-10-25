@@ -19,8 +19,7 @@ The project currently supports scraping, structuring, and visualizing basic jour
 
 - ✅ Flask backend and web dashboard  
 - ✅ Web scraping with BeautifulSoup  
-- ✅ Extracts article titles, authors, and sections  
-- ✅ Demo mode with sample data  
+- ✅ Extracts article titles, authors, and sections   
 - ⚙️ Planned: automatic outlet detection  
 - ⚙️ Planned: journalist network graph & clustering  
 - ⚙️ Planned: NLP topic extraction  
@@ -94,3 +93,4 @@ Real-time scraping dashboard (Stage 4)
 ## 📜 License
 
 Open-source prototype created for educational and hackathon use.
+
