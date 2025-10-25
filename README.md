@@ -82,6 +82,8 @@ Real-time scraping dashboard (Stage 4)
 
 ---
 ## 📸 Prototype Preview
+<img width="1883" height="911" alt="image" src="https://github.com/user-attachments/assets/053c822b-fbcb-4664-81a5-14c321407106" />
+
 
 ---
 ## 🧑‍💻 Team
@@ -93,5 +95,6 @@ Real-time scraping dashboard (Stage 4)
 ## 📜 License
 
 Open-source prototype created for educational and hackathon use.
+
 
 
