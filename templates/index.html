@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsTrace Prototype</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📰 NewsTrace Prototype</h1>
+            <p>Real-time Journalist Mapping & Analysis System</p>
+        </div>
+
+        <div class="controls">
+            <button class="btn" onclick="scrapeNews()">
+                🚀 Scrape Real News
+            </button>
+        </div>
+
+        <div id="stats" class="stats" style="display: none;"></div>
+
+        <div class="content">
+            <div id="loading" class="loading" style="display: none;">
+                <h3>🔄 Scraping news sources...</h3>
+                <p>This may take a few moments</p>
+            </div>
+
+            <div id="messages"></div>
+
+            <h2 class="section-title">📊 Detected Journalists & Articles</h2>
+            <div id="results">
+                <div class="loading">
+                    <p>Click "Scrape Real News" to begin</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
