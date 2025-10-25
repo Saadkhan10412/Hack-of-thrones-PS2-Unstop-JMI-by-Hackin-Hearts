@@ -48,9 +48,9 @@ NewsTrace/ \
 ├── templates/\
 │ └── index.html\
 ├── static/\
-│ ├── style.css\
-│ └── script.js\
-└── data/\
+  ├── style.css\
+  └── script.js\
+
 
 
 ---
@@ -93,4 +93,5 @@ Real-time scraping dashboard (Stage 4)
 ## 📜 License
 
 Open-source prototype created for educational and hackathon use.
+
 
